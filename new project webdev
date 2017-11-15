@@ -1,0 +1,19 @@
+A train service calculates your travelling cost based on the distance you travel. You will also
+receive a discount if you decide to take a return trip rather than a one-way trip.
+● Create a file train.html, and create a form that allows the user enter :
+○ the distance the user is travelling.
+○ whether the trip is a return or one-way (using a drop-down list)
+● Also make sure you have a submit button that the user can press after inputting their
+information.
+● Create another file named train.php, that will perform the calculations.
+● This program must display the total travelling cost.
+● The travelling cost is calculated according to the following guidelines:
+○ If the distance is less than or equal to 70 km the total cost must equal the
+distance multiplied by R1.50 .
+○ If the distance is less than 90 km and greater than 70 km the total cost must
+equal the distance multiplied by R1.00 .
+○ If the distance equals 90 km or greater the total cost must equal the distance
+multiply by R0.75 .
+○ If the trip is a return trip the user must get 10% off.
+● The program must then display to the user the total cost of the trip, as well as the total
+distance and whether the trip is a return or one-way trip
